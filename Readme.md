@@ -1,17 +1,19 @@
 1.Installation
-    Clone the repository: git clone <repository-url>
+    Clone the repository: git clone https://github.com/ducanhdhtb/meme_generator
     Navigate to the project directory: cd meme-generator
+
 2.Create a virtual environment: python3 -m venv venv
+
 3.Activate the virtual environment:
     For Windows: venv\Scripts\activate
     For macOS/Linux: source venv/bin/activate
-4.Install the required dependencies: pip install -r requirements.txt
+4.Install the required dependencies: pip install -r requirement.txt
 
 5.Usage
     Command Line Tool
     To use the command line tool, run the following command:
-
     python main.py --body "Quote body" --author "Quote author" --image "path/to/image.jpg"
+
 If any argument is not defined, a random selection will be used.
 
 6.Web Service
